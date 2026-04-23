@@ -1,0 +1,170 @@
+{
+  "spine": {
+    "head": [
+      "LEFT_SHOULDER",
+      "RIGHT_SHOULDER"
+    ],
+    "tail": [
+      "LEFT_HIP",
+      "RIGHT_HIP"
+    ],
+    "children": {
+      "pelvis.L": {
+        "head": [
+          "LEFT_HIP"
+        ],
+        "tail": [
+          "LEFT_HIP",
+          "RIGHT_HIP"
+        ],
+        "children": {
+          "upper_leg.L": {
+            "head": [
+              "LEFT_HIP"
+            ],
+            "tail": [
+              "LEFT_KNEE"
+            ],
+            "children": {
+              "lower_leg.L": {
+                "head": [
+                  "LEFT_KNEE"
+                ],
+                "tail": [
+                  "LEFT_ANKLE"
+                ],
+                "children": {
+                  "ankle.L": {
+                    "head": [
+                      "LEFT_ANKLE"
+                    ],
+                    "tail": [
+                      "LEFT_HEEL"
+                    ],
+                    "children": {
+                      "foot.L": {
+                        "head": [
+                          "LEFT_HEEL"
+                        ],
+                        "tail": [
+                          "LEFT_FOOT_INDEX"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "pelvis.R": {
+        "head": [
+          "RIGHT_HIP"
+        ],
+        "tail": [
+          "LEFT_HIP",
+          "RIGHT_HIP"
+        ],
+        "children": {
+          "upper_leg.R": {
+            "head": [
+              "RIGHT_HIP"
+            ],
+            "tail": [
+              "RIGHT_KNEE"
+            ],
+            "children": {
+              "lower_leg.R": {
+                "head": [
+                  "RIGHT_KNEE"
+                ],
+                "tail": [
+                  "RIGHT_ANKLE"
+                ],
+                "children": {
+                  "ankle.R": {
+                    "head": [
+                      "RIGHT_ANKLE"
+                    ],
+                    "tail": [
+                      "RIGHT_HEEL"
+                    ],
+                    "children": {
+                      "foot.R": {
+                        "head": [
+                          "RIGHT_HEEL"
+                        ],
+                        "tail": [
+                          "RIGHT_FOOT_INDEX"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "clavicle.L": {
+        "head": [
+          "LEFT_SHOULDER"
+        ],
+        "tail": [
+          "LEFT_SHOULDER",
+          "RIGHT_SHOULDER"
+        ],
+        "children": {
+          "upper_arm.L": {
+            "head": [
+              "LEFT_SHOULDER"
+            ],
+            "tail": [
+              "LEFT_ELBOW"
+            ],
+            "children": {
+              "lower_arm.L": {
+                "head": [
+                  "LEFT_ELBOW"
+                ],
+                "tail": [
+                  "LEFT_WRIST"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "clavicle.R": {
+        "head": [
+          "RIGHT_SHOULDER"
+        ],
+        "tail": [
+          "LEFT_SHOULDER",
+          "RIGHT_SHOULDER"
+        ],
+        "children": {
+          "upper_arm.R": {
+            "head": [
+              "RIGHT_SHOULDER"
+            ],
+            "tail": [
+              "RIGHT_ELBOW"
+            ],
+            "children": {
+              "lower_arm.R": {
+                "head": [
+                  "RIGHT_ELBOW"
+                ],
+                "tail": [
+                  "RIGHT_WRIST"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
